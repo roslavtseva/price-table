@@ -22,7 +22,7 @@ padding-bottom: 41px;
 
   &__title {
     text-align: center;
-    margin: 30px 140px 54px 140px;
+  /*  margin: 30px 140px 54px 140px;*/
     /*line-height: 43px;*/
   }
 
@@ -30,6 +30,7 @@ padding-bottom: 41px;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 0;
+    margin-top: 30px;
   }
 
   &__price {
@@ -39,6 +40,7 @@ padding-bottom: 41px;
     text-align: center;
     padding: 18px 110px 19px 110px;
     width: 100%;
+    margin-top: 36px;
 
     &-green {
       background-color: $color-green;
