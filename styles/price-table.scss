@@ -73,6 +73,25 @@
       background-color: $color-orange;
     }
   }
+
+  .popular {
+    &__tape {
+      position: absolute;
+      height: 25px;
+      width: 147px;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      transform: rotate(45deg);
+      color: $text-color-white;
+      background-color: $color-red;
+      
+      
+    }
+  }
+  
 }
 
 .options-list {
@@ -114,22 +133,5 @@
 
   &-orange {
     background-image: $checkmark-orange;
-  }
-}
-.popular {
-  &__tape {
-    position: absolute;
-    height: 25px;
-    width: 147px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 25px;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: uppercase;
-    transform: rotate(45deg);
-    color: $text-color-white;
-    background-color: $color-red;
-    
   }
 }

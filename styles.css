@@ -72,6 +72,19 @@
 .price-card__order-button-orange {
   background-color: #EC632A;
 }
+.price-card .popular__tape {
+  position: absolute;
+  height: 25px;
+  width: 147px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  color: #FFFFFF;
+  background-color: #DC3F45;
+}
 
 .options-list {
   padding: 0;
@@ -107,23 +120,6 @@
 }
 .checkmark-orange {
   background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-}
-
-.popular__tape {
-  position: absolute;
-  height: 25px;
-  width: 147px;
-  font-size: 14px;
-  line-height: 25px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  transform: rotate(45deg);
-  color: #ffffff;
-  background-color: #DC3F45;
-  /*right: -30px;
-  top: 30px;*/
 }
 
 * {
