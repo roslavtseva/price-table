@@ -80,7 +80,7 @@
     color: $text-color-white;
     text-transform: uppercase;
     width: 155px;
-    height: 40px;
+    line-height: 40px;
     margin-top: 37px;
     margin-bottom: 42px;
     /*padding-bottom: 1px;*/
@@ -90,11 +90,10 @@
     }
     &-blue {
       background-color: $color-blue;
-      height: 40px;
+      
     }
     &-orange {
       background-color: $color-orange;
-      height: 40px;
     }
   }
 

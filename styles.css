@@ -73,7 +73,7 @@
   color: #FFFFFF;
   text-transform: uppercase;
   width: 155px;
-  height: 40px;
+  line-height: 40px;
   margin-top: 37px;
   margin-bottom: 42px;
   /*padding-bottom: 1px;*/
@@ -83,11 +83,9 @@
 }
 .price-card__order-btn-blue {
   background-color: #3A6BA5;
-  height: 40px;
 }
 .price-card__order-btn-orange {
   background-color: #EC632A;
-  height: 40px;
 }
 .price-card .bussiness__tape {
   position: absolute;
