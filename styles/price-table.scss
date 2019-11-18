@@ -14,6 +14,9 @@
   color: $text-color-white;
   background-color: $color-grey;
   box-shadow: $shadow;
+  position: relative;
+  overflow: hidden;
+
 
   &__title {
     text-align: center;
@@ -75,7 +78,7 @@
   }
 
   .bussiness {
-    position: relative;
+
     &__tape {
       position: absolute;
       height: 25px;
@@ -88,8 +91,9 @@
       transform: rotate(45deg);
       color: $text-color-white;
       background-color: $color-red;
+      right: -30px;
+        top: 28px;
 
-      
     }
   }
   
