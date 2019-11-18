@@ -12,20 +12,21 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: center;
   width: 380px;
-  /*height: 770px;*/
+  height: 770px;
   font-family: "Montserrat";
   font-style: normal;
   color: #FFFFFF;
   background-color: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  position: relative;
   overflow: hidden;
 }
 .price-card__title {
   text-align: center;
   margin-top: 0;
+  line-height: 43px;
 }
 .price-card__subtitle {
   font-size: 20px;
@@ -148,8 +149,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #141B1C;
-  width: 1400px;
-  height: 1000px;
 }
 
 /*# sourceMappingURL=styles.css.map */

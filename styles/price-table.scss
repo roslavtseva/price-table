@@ -7,22 +7,22 @@
 .price-card {
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: center;
   width: 380px;
-  /*height: 770px;*/
+  height: 770px;
   font-family: "Montserrat";
   font-style: normal;
   color: $text-color-white;
   background-color: $color-grey;
   box-shadow: $shadow;
-  position: relative;
   overflow: hidden;
 
 
   &__title {
     text-align: center;
     margin-top: 0;
-
+line-height: 43px;
   }
 
   &__subtitle {
