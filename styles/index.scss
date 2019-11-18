@@ -1,5 +1,6 @@
 @import 'variables.scss';
 @import 'price-table.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -9,6 +10,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $color-black;
     height: 100vh;
-    /*background-color: black;*/
 }
