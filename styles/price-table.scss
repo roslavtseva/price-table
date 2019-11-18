@@ -64,15 +64,16 @@ padding-bottom: 41px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 17px;
     /*text-align: center;*/
     border: none;
-    padding: 11px 27px 11px 28px;
+    /*padding: 11px 27px 11px 28px;*/
     color: $text-color-white;
     text-transform: uppercase;
     width: 155px;
-    
+    line-height: 40px;
+
     &-green {
       background-color: $color-green;
     }

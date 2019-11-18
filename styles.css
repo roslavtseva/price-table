@@ -64,14 +64,15 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 17px;
   /*text-align: center;*/
   border: none;
-  padding: 11px 27px 11px 28px;
+  /*padding: 11px 27px 11px 28px;*/
   color: #FFFFFF;
   text-transform: uppercase;
   width: 155px;
+  line-height: 40px;
 }
 .price-card__order-btn-green {
   background-color: #5BB189;
