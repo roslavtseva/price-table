@@ -76,6 +76,7 @@
   line-height: 40px;
   margin-top: 37px;
   margin-bottom: 42px;
+  padding-bottom: 1px;
 }
 .price-card__order-btn-green {
   background-color: #5BB189;
