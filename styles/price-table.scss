@@ -21,8 +21,17 @@
 
   &__title {
     text-align: center;
-    margin-top: 0;
-line-height: 43px;
+    margin-top: 30px;
+
+  }
+
+  &__title-main {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 0;
+    line-height: 43px;
+
+
   }
 
   &__subtitle {
@@ -31,13 +40,7 @@ line-height: 43px;
     line-height: 24px;
 }
 
-  &__title-main {
-    font-weight: 700;
-    font-size: 35px;
-    margin-bottom: 0;
-    margin-top: 30px;
-
-  }
+  
 
   &__price {
     font-weight: 700;
