@@ -60,12 +60,15 @@
   text-align: center;
 }
 .price-card__order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
+  /*text-align: center;*/
   border: none;
-  padding: 11px 27px 12px 28px;
+  padding: 11px 27px 11px 28px;
   color: #FFFFFF;
   text-transform: uppercase;
 }
