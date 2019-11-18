@@ -17,14 +17,17 @@
   box-shadow: $shadow;
   position: relative;
   overflow: hidden;
-/*padding: 0 0 42px 0;*/
 padding-bottom: 41px;
 
   &__title {
     text-align: center;
-  /*  margin: 30px 140px 54px 140px;*/
-    /*line-height: 43px;*/
   }
+
+  &__subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
 
   &__title-main {
     font-weight: 700;
@@ -67,9 +70,7 @@ padding-bottom: 41px;
     align-items: center;
     border-radius: 20px;
     font-size: 15px;
-    /*text-align: center;*/
     border: none;
-    /*padding: 11px 27px 11px 28px;*/
     color: $text-color-white;
     text-transform: uppercase;
     width: 155px;
