@@ -17,7 +17,7 @@
   box-shadow: $shadow;
   position: relative;
   overflow: hidden;
-padding-bottom: 41px;
+
 
   &__title {
     text-align: center;
@@ -76,6 +76,7 @@ padding-bottom: 41px;
     width: 155px;
     line-height: 40px;
     margin-top: 37px;
+    margin-bottom: 42px;
 
     &-green {
       background-color: $color-green;

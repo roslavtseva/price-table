@@ -22,7 +22,6 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   position: relative;
   overflow: hidden;
-  padding-bottom: 41px;
 }
 .price-card__title {
   text-align: center;
@@ -75,6 +74,7 @@
   width: 155px;
   line-height: 40px;
   margin-top: 37px;
+  margin-bottom: 42px;
 }
 .price-card__order-btn-green {
   background-color: #5BB189;
@@ -146,8 +146,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
-  height: 100vh;
+  background-color: #141B1C;
+  width: 1400px;
+  height: 1000px;
 }
 
 /*# sourceMappingURL=styles.css.map */
