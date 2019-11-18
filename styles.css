@@ -67,6 +67,7 @@
   border: none;
   padding: 11px 27px 12px 28px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 .price-card__order-btn-green {
   background-color: #5BB189;
