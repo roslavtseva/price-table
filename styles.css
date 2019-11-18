@@ -22,6 +22,8 @@
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   position: relative;
   overflow: hidden;
+  /*padding: 0 0 42px 0;*/
+  padding-bottom: 41px;
 }
 .price-card__title {
   text-align: center;
@@ -57,7 +59,7 @@
   margin: 39px 26px 42px 26px;
   text-align: center;
 }
-.price-card__order-button {
+.price-card__order-btn {
   border-radius: 20px;
   font-size: 14px;
   line-height: 17px;
@@ -66,13 +68,13 @@
   padding: 11px 27px 12px 28px;
   color: #FFFFFF;
 }
-.price-card__order-button-green {
+.price-card__order-btn-green {
   background-color: #5BB189;
 }
-.price-card__order-button-blue {
+.price-card__order-btn-blue {
   background-color: #3A6BA5;
 }
-.price-card__order-button-orange {
+.price-card__order-btn-orange {
   background-color: #EC632A;
 }
 .price-card .bussiness__tape {
