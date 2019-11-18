@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   width: 380px;
-  height: 770px;
+  /*height: 770px;*/
   font-family: "Montserrat";
   font-style: normal;
   color: #FFFFFF;
@@ -74,6 +74,7 @@
   text-transform: uppercase;
   width: 155px;
   line-height: 40px;
+  margin-top: 37px;
 }
 .price-card__order-btn-green {
   background-color: #5BB189;
