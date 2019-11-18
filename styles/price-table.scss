@@ -74,7 +74,8 @@
     }
   }
 
-  .popular {
+  .bussiness {
+    position: relative;
     &__tape {
       position: absolute;
       height: 25px;
@@ -87,7 +88,7 @@
       transform: rotate(45deg);
       color: $text-color-white;
       background-color: $color-red;
-      
+
       
     }
   }

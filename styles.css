@@ -72,7 +72,10 @@
 .price-card__order-button-orange {
   background-color: #EC632A;
 }
-.price-card .popular__tape {
+.price-card .bussiness {
+  position: relative;
+}
+.price-card .bussiness__tape {
   position: absolute;
   height: 25px;
   width: 147px;
@@ -84,6 +87,8 @@
   transform: rotate(45deg);
   color: #FFFFFF;
   background-color: #DC3F45;
+  right: -30px;
+  top: 30px;
 }
 
 .options-list {
